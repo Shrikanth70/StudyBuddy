@@ -1,0 +1,48 @@
+{
+  "name": "studybuddy-ai",
+  "version": "1.0.0",
+  "description": "StudyBuddy AI - Your Intelligent Learning Companion - Full MERN Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview",
+    "build": "cd frontend && npm run build",
+    "test": "echo \"No tests specified yet\" && exit 0",
+    "lint": "cd frontend && npm run lint",
+    "clean": "rm -rf node_modules backend/node_modules frontend/node_modules",
+    "setup": "npm run install:all && echo \"Setup complete! Run 'npm run dev' to start development servers\""
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "ai",
+    "education",
+    "learning",
+    "chat",
+    "study-assistant"
+  ],
+  "author": "StudyBuddy AI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/studybuddy-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/studybuddy-ai/issues"
+  },
+  "homepage": "https://github.com/yourusername/studybuddy-ai#readme"
+}

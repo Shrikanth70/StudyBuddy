@@ -1,0 +1,56 @@
+/* Homepage Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.hero {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #4e54c8;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #8f94fb;
+}
