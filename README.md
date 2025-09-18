@@ -1,4 +1,4 @@
-# 🎓 StudySphere - AI-Powered Student Companion
+# 🎓 StudyBuddy - AI-Powered Student Companion
 
 A comprehensive, professional-grade web application designed to revolutionize the way students learn, study, and manage their academic journey. Built with modern technologies and AI-powered features.
 
